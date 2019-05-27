@@ -1,11 +1,9 @@
 
 server:
-  port: 10000
+  port: 10001
 dubbo:
   application:
-    name: user-service
-  protocol:
-    port: 20881
+    name: user-consumer
   registry:
     address: zookeeper://127.0.0.1:2181
 

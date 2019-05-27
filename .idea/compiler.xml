@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="user-consumer" />
         <module name="user-interface" />
         <module name="user-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dubbo-parent" target="1.8" />
+      <module name="user-consumer" target="1.8" />
       <module name="user-interface" target="1.8" />
       <module name="user-provider" target="1.8" />
     </bytecodeTargetLevel>
